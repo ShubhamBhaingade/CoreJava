@@ -1,0 +1,16 @@
+package com.cg.Garment.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class GarmentRequestDto {
+	
+	private String garmentOwner;
+	private String garmentLocation;
+	private String garmentName;
+	
+}
